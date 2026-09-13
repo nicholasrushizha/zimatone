@@ -1,0 +1,69 @@
+body{
+  font-family: Arial;
+  padding: 20px;
+  background-color:rgb(240,240,240);
+}
+
+.section{
+  display: none;
+  padding: 5px;
+  
+  margin-top: 0px;
+}
+
+.main_for_allcopies{ 
+                display:block;
+                
+                background-color:white ;
+                margin-top:10px;
+                margin-left: 20px;
+                margin-right:20px;
+                padding: 20px;
+                
+                }
+               .myrightsheadings{
+                font-size:25px;
+                font-family:Lucida Bright, 'Times New Roman', Times, serif;
+               }
+               .section{
+                margin:0px;
+                margin-top:-10px;
+              
+               }
+               .smallaboutheadings{
+                font-style:bold;
+                margin:0px;
+                padding:0px;
+               }
+
+
+
+               
+/*THE FEEDBACK FORM*/
+.feedback-form {
+        max-width: 600px;
+        margin: 40px auto;
+      }
+
+      .feedback-form label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: 600;
+      }
+
+      .feedback-form input,
+      .feedback-form textarea {
+          width: 100%;
+          padding: 12px;
+          margin-bottom: 20px;
+          box-sizing: border-box;
+      }
+
+      .feedback-form textarea {
+          resize: vertical;
+      }
+
+      .feedback-form button {
+          padding: 12px 24px;
+          cursor: pointer;
+      }

@@ -1,0 +1,15 @@
+# Ignore the node_modules folder
+node_modules/
+
+# Ignore the environment variables file
+.env
+
+# Ignore all log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+Thumbs.db
+
+.vscode/

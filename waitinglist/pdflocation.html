@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard - Mobile</title>
+  <link rel="stylesheet" href="dashbordcss.css">
+  <script src="dashbordjs.js" defer></script>  
+  
+</head>
+<body>
+
+
+
+<!-- MAIN HEADER FOR THE HEADINGS AND MENUBAR   -->
+  <main class="main_for_headers" aria-label="Main content">
+       <header class="page-header" aria-label="Dashboard header">
+           <h1><span id="zimheader">ZimAtOne</span></h1>
+       </header>
+
+    <nav class="main-nav" aria-label="Main navigation with collapsible menu">
+        <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="menuPanel" type="button">
+          <span id="hambeg" class="hamburger" aria-hidden="true">
+            <span id="hambeg"></span><span id="hambeg"></span><span id="hambeg"></span>
+          </span>
+
+          <span id="picspan" class="picspanclass" aria-hidden="true">
+          
+          </span>
+
+        </button>
+        <!-- THE MAİN MENU BAR CONTAİNS LINKS TO OTHER PAGES  -->
+        <div id="menuPanel" class="menu-panel" role="region" aria-label="Collapsible menu panel">
+           <div class="row" style="gap:8px;">
+            <button class="panel-btn" type="button" id="btn1" onclick="openZimsecpage()">Zimsec Past Papers</button>
+            <button class="panel-btn" type="button" id="btn2">btn2</button>
+            <button class="panel-btn" type="button" id="btn3">btn3</button>
+            <button class="panel-btn" type="button" id="btn4">btn4</button>
+            <div class="logindiv">
+              <button class="loginbtn" type="button" id="loginbtn" onclick="openLoginpage()">Login</button>
+            </div>
+           </div>
+        </div>
+
+
+            <span id="mathsheader" class="mathsheader">Zimsec Past Papers</span>
+
+
+    </nav>
+
+      <!-- OUR SEARCHBOX   -->
+    <div id="search-box" class="search-box">
+      <input type="text" id="searchInput" placeholder="Search...">
+  
+       <button onclick="searchFunction()">
+        
+       </button>
+    </div>
+    
+     
+
+
+  </main>
+
+<br>
+<br>
+<br>
+  <!-- THIS IS THE MAIN FOR THE TO BE DOWNLOADED FILES  -->
+  <main id="main_for_combinedscience" class="main_for_allsubsmain">
+    <span class="theDownloadtext">DOWNLOAD</span><br> Combined Science O and A level Past Papers
+    <br>
+    <br>
+       
+
+          <!-- THIS DIV IS FOR THE BUTTON FILES OF COMBİNED SCİENCE  -->
+        <div class="button-allfilessamedesigndiv">
+
+              <button class="allfiles-btn">
+                <img src="allicons/pdficon.PNG" class="foldericonclass">
+                Button 1
+              </button>
+
+              <button class="allfiles-btn">
+                <img src="allicons/pdficon.PNG" class="foldericonclass">
+                Button 2
+              </button>
+
+              <button class="allfiles-btn">
+                <img src="allicons/pdficon.PNG" class="foldericonclass">
+                Button 3
+              </button>
+
+              <button class="allfiles-btn">
+                <img src="allicons/pdficon.PNG" class="foldericonclass">
+                Button 4
+              </button>
+
+              <button class="allfiles-btn">
+                <img src="allicons/pdficon.PNG" class="foldericonclass">
+                Button 5
+              </button>
+
+          </div>
+  </main>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ 
+</body>
+</html>

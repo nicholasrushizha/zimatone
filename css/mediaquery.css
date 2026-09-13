@@ -1,0 +1,92 @@
+
+/*THESE MEDIA QUERIES ARE FOR INDEX FOR THE SCHOLAR DIVS*/
+.mobile_ads{
+        max-width: 250px;
+        height: 100px;
+    }
+.main_for_allSCHOLAS{
+    color: black;
+
+}
+
+.main_for_FULLY_funded_header{
+    overflow:hidden;
+}
+        .FULLY_funded_header{
+            font-size:15px;
+        }
+
+
+
+.headings_for_scholar_names{
+    font-size:11px;
+    overflow:hidden;
+    height:150px;
+    
+}
+.small_date_shower{
+    top:7px;
+    font-size: 10px;
+    
+}
+.divs_for_date_locatio_nmoney{
+    background-color:white;
+    gap: 7px;
+}
+
+.bottom_of_pic_text{
+    font-size: 12px;
+    height:145px;
+    overflow:hidden;
+    
+}
+.small_READMORE_text a{
+    font-size:12px;
+}
+
+
+
+
+.telegram-btn{
+    width: 35px;
+    height: 35px;
+    top:5px;
+    font-size: 20px;
+}
+.whatsapp-icon{
+    width: 35px;
+    height: 35px;
+    top:5px;
+    font-size: 20px;
+}
+.facebook-btn{
+    width: 35px;
+    height: 35px;
+    top:5px;
+    font-size: 20px;
+}
+.x-btn{
+    width: 35px;
+    height: 35px;
+    top:5px;
+    font-size: 20px;
+}
+.instagram-btn{
+    width: 35px;
+    height: 35px;
+    top:5px;
+    font-size: 20px;
+}
+
+
+
+
+.bottom-row-divs{
+    gap: 10px;
+    height:30px;
+}
+
+
+.join_community_text{
+    font-size: 12px;
+}

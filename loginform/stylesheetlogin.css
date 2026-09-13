@@ -1,0 +1,174 @@
+
+div.boy1{
+    
+    background: linear-gradient(rgb(228,28,161),rgb(47,15,241));
+    display: block;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    right:0px;
+    
+}
+
+div.loginbox{
+    background-color:white;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top:10%;
+    bottom:10%;
+    
+}
+
+h1.login{
+    margin-top:15%;
+}
+input.textemail{
+    border-radius:15px;
+    background-color:rgb(209 ,209,209);
+    margin-bottom:2%;
+    height:6%;
+    width: 80%
+    
+}
+input.textpass{
+   border-radius:15px;
+    background-color:rgb(209 ,209,209);
+    margin-bottom:1%;
+    height:6%;
+    width: 80%
+
+}
+
+div.checkme{
+    display:block;
+    color:red;
+    text-align:left;
+}
+div.button1{
+
+    
+    background-color:rgb(228,28,161);
+    height:6%;
+    position: absolute;
+    left:15%;
+    right: 15%;
+}
+
+div.button1:hover{
+   
+     color:blue;
+    text-decoration:bold;
+    
+    box-shadow: 10px 10px 5px grey;
+    cursor:pointer;
+    background-color:rgb(179,172,167);
+
+}
+span.textinside{
+    color:white;
+    font-size:;
+    position: relative;
+    top:23%;
+    
+}
+div.face{
+    width:80px;
+    display:inline-block;
+    padding-right: 10px;
+    padding-left:17px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin: 5px;
+    border: 1px solid black;
+    color:rgb(11,8,146);
+    background-image: url("faceicon.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position:5% center;
+}
+div.face:hover{
+   
+     color:blue;
+    text-decoration:bold;
+    
+    box-shadow: 10px 10px 5px grey;
+    cursor:pointer;
+    background-color:rgb(179,172,167)
+    
+}
+div.google{
+    display:inline-block;
+    width:80px;
+    margin: 5px;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left:10px;
+    position:relative;
+    left:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background-image: url("googleicon.jpg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position:5% center;
+}
+div.google:hover{
+    color:white;
+    text-decoration:bold;
+    
+    box-shadow: 10px 10px 5px grey;
+    cursor:pointer;
+    background-color:rgb(179,172,167)
+    
+   
+}
+div.sign{
+    position:absolute;
+    bottom:5%;
+    left:10%;
+    right:10%;
+}
+span.under{
+    text-decoration:underline;
+}
+span.under:hover{
+    text-shadow:5px 5px 5px grey;
+font-size:larger;
+cursor:pointer;
+
+}
+@media(max-width:700px ) {
+div.loginbox{
+     position: absolute;
+    left: 10%;
+    right:10%;
+    top:5%;
+    bottom:5%;
+}
+    
+}
+@media(max-width:900px ) {
+div.loginbox{
+     position: absolute;
+    left: 15%;
+    right: 15%;
+    top:5%;
+    bottom:5%;
+}
+    
+}
+
+@media  (max-width:600px ) {
+div.loginbox{
+     position: absolute;
+    left: 5%;
+    right: 5%;
+    top:5%;
+    bottom:5%;
+}
+    
+}
+
