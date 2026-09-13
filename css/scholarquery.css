@@ -11,11 +11,13 @@
     }
 
     .ad {
-        display: block;          
-        width: 200px;
+        display: block; 
+        width:100%;         
+        max-width: 200px;
                
-        top: 20px;                  
-        height: 700px; 
+        top: 20px;  
+        height:100%;                
+        max-height: 700px; 
       
         margin-bottom: 20px;  
         margin-top: 20px;    
@@ -74,11 +76,13 @@
     }
 
     .ad {
-        display: block;          
-        width: 200px;
+        display: block; 
+        width:100%;         
+        max-width: 200px;
                 
-        top: 20px;                  
-        height: 700px; 
+        top: 20px; 
+        height:100%;                 
+        max-height: 700px; 
        
         margin-bottom: 20px;  
         margin-top: 20px;      
@@ -120,15 +124,18 @@
     .mobile_ads {
     width: 100%;
     max-width: 300px;
-    height: 250px;
+    height:100%;
+    max-height: 250px;
     margin: 0 auto;
    
     }
 }
 @media screen and (max-width: 383px) {
     .mobile_ads{
+        width:100%;
         max-width: 250px;
-        height: 100px;
+        height:100%;
+        max-height: 100px;
     }
 }
 

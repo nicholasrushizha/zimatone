@@ -1,6 +1,7 @@
 
-/*THESE MEDIA QUERIES ARE FOR INDEX FOR THE SCHOLAR DIVS*/
+/*THESE MEDIA QUERIES ARE FOR INDEX FOR THE SCHOLAR DIVS for iphoneX*/
 .mobile_ads{
+        width: 100%;
         max-width: 250px;
         height: 100px;
     }
