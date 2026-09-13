@@ -19,6 +19,9 @@
     margin: 0 auto;
    
 }
+ .middle_page_adcontainer{
+        display: none;
+    }
 
 
 .main_for_allmainscholars{ 
