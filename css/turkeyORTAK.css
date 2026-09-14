@@ -11,7 +11,7 @@
 /*MOBILE ADS SECTİONS*/
 
 .mobile_ads {
-    
+    align-items: center;
     width: 100%;
     max-width: 370px;
     height:100%;
