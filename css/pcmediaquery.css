@@ -143,7 +143,13 @@
     .mobile_ads{
         display: none;
     }
-
+    /*just a page break*/
+.pb {
+    display: block;
+    clear: both;
+    page-break-after: always; /* Legacy fallback */
+    break-after: page;        /* Modern standard */
+  }
     
 }
 
@@ -259,7 +265,13 @@
     .mobile_ads{
         display: none;
     }
-
+    /*just a page break*/
+.pb {
+    display: block;
+    clear: both;
+    page-break-after: always; /* Legacy fallback */
+    break-after: page;        /* Modern standard */
+  }
 
 }
 
