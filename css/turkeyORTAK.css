@@ -26,6 +26,13 @@
         display: none;
     }
 
+    .ad-rail.left-ad{
+        display: none;
+    }
+    .ad-rail.right-ad{
+        display: none;
+    }
+
 
 .main_for_allmainscholars{ 
                 
