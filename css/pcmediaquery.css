@@ -33,7 +33,9 @@
         max-height: 1000px; 
               
     }
-    
+    .mobile_four{
+    display: none; 
+    }
 
 
 
@@ -165,6 +167,9 @@
     .ad-rail.left-ad{
         display: none;
     }
+     .mobile_four{
+         display: none; 
+        }
     .page-wrapper {
         display: grid;
         /* Left and Right columns stay fixed at 200px. */
