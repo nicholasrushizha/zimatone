@@ -5,6 +5,12 @@
         max-width: 250px;
         height: 300px;
     }
+ .ad-rail.left-ad{
+        display: none;
+    }
+    .ad-rail.right-ad{
+        display: none;
+    }
 .main_for_allSCHOLAS{
     color: black;
 
