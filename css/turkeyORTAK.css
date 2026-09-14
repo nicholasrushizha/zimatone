@@ -19,18 +19,7 @@
     margin: 0 auto;
    
 }
-.mobile_four{
-    display: block; 
-        width:100%;         
-        max-width: 300px;
-               
-        top: 20px;  
-        height:100%;                
-        max-height: 1000px; 
-      
-        margin-bottom: 20px;  
-        margin-top: 20px;  
-}
+
  .middle_page_adcontainer{
         display: none;
     }
