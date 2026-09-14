@@ -54,7 +54,9 @@
     .last_ad_on_pages{
         display: none;
     }
-
+     .pc_only_ad{
+        display: none;
+    }
 
 .main_for_allmainscholars{ 
                 

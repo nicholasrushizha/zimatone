@@ -8,6 +8,9 @@
 .mobile_ads_w100{
       display: none;
     }
+     .pc_only_ad{
+        display: none;
+    }
     
  .ad-rail.left-ad{
         display: none;

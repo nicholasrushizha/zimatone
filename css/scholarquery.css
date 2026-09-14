@@ -24,6 +24,18 @@
         margin-top: 20px;    
        
     }
+    .pc_only_ad{
+         display: block; 
+        width:100%;         
+        max-width: 310px;
+               
+        top: 20px;  
+        height:100%;                
+        max-height: 260px; 
+      
+        margin-bottom: 20px;  
+        margin-top: 20px; 
+    }
     .ad_big_container{
         display:flex;
         flex-direction: column;
@@ -98,6 +110,9 @@
         display:flex;
         flex-direction: column;
         gap:15px;
+    }
+    .pc_only_ad{
+        display: none;
     }
    
     .bigcontainer {
@@ -206,6 +221,9 @@
     .last_ad_on_pages{
         display: none;
     }
+     .pc_only_ad{
+        display: none;
+    }
 }
 @media screen and (max-width: 383px) {
     .mobile_ads{
@@ -233,6 +251,9 @@
         display: none;
     }
     .last_ad_on_pages{
+        display: none;
+    }
+     .pc_only_ad{
         display: none;
     }
 }
