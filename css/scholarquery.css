@@ -53,6 +53,15 @@
         margin-left:auto;
         margin-right:auto;
     }
+    .middle_page_adcontainer_2{
+        display: block;
+        height:100%;
+        max-height: 70px;
+        width:100%;
+        max-width:500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
      .mobile_ads{
         display: none;
     }
@@ -113,7 +122,16 @@
     .middle_page_adcontainer{
         display: block;
         height:100%;
-        max-height: 400px;
+        max-height: 260px;
+        width:100%;
+        max-width:500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+     .middle_page_adcontainer_2{
+        display: block;
+        height:100%;
+        max-height: 70px;
         width:100%;
         max-width:500px;
         margin-left:auto;
@@ -138,6 +156,9 @@
     .middle_page_adcontainer{
         display: none;
     }
+    .middle_page_adcontainer_2{
+        display: none;
+    }
       .ad_big_container{
         display: none;
     }
@@ -150,6 +171,9 @@
         max-height: 300px;
     }
     .middle_page_adcontainer{
+        display: none;
+    }
+    .middle_page_adcontainer_2{
         display: none;
     }
       .ad{

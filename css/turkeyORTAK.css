@@ -12,7 +12,7 @@
 
 .mobile_ads {
    text-align: center;
-   
+
     width: 100%;
     max-width: 370px;
     height:100%;
@@ -23,6 +23,9 @@
 }
 
  .middle_page_adcontainer{
+        display: none;
+    }
+    .middle_page_adcontainer_2{
         display: none;
     }
  .ad {
