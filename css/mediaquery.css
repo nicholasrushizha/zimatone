@@ -5,6 +5,10 @@
         max-width: 250px;
         height: 300px;
     }
+.mobile_ads_w100{
+      display: none;
+    }
+    
  .ad-rail.left-ad{
         display: none;
     }
