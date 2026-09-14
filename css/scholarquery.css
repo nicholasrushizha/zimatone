@@ -24,6 +24,11 @@
         margin-top: 20px;    
        
     }
+    .ad_big_container{
+        display:flex;
+        flex-direction: column;
+        gap:15px;
+    }
     /*text of the flashing btn*/
     .textonlyfully{
         font-size: 20px;
@@ -85,6 +90,11 @@
 @media screen and (min-width: 645px) and (max-width: 1099px) {
         .ad_big_container.left_ads{
         display: none;
+    }
+      .ad_big_container{
+        display:flex;
+        flex-direction: column;
+        gap:15px;
     }
    
     .bigcontainer {
