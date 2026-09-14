@@ -70,7 +70,7 @@
     .main_for_allSCHOLAS {
         /* Prevents the main content from shrinking so much that text gets unreadable */
         min-width: 600px;  
-        height:920px;
+        height:1000px;
         overflow:hidden;
     }
     .headings_for_scholar_names{
@@ -171,7 +171,7 @@
     }
     .main_for_allSCHOLAS {
         
-        height:750px;
+        height:900px;
         overflow:hidden;
     }
     /* When the screen drops below 1100px, hide the ads so the main content has full room */
