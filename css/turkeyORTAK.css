@@ -34,6 +34,18 @@
     margin-right: auto;
    
 }
+.mobile_ads_w250 {
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 310px;
+    height:100%;
+    max-height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 
  .middle_page_adcontainer{
         display: none;
