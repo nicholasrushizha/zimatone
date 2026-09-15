@@ -237,7 +237,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 383px) {
+@media screen and (max-width: 300px) { /*changed from 383 to 300*/
     .mobile_ads{
         width:100%;
         max-width: 250px;
