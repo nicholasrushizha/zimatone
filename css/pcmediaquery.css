@@ -36,7 +36,19 @@
       .maxH600{
          display: block; 
         width:100%;         
-        max-width: 170px;
+        max-width: 300px;
+               
+        top: 20px;  
+        height:100%;                
+        max-height: 610px; 
+      
+        margin-bottom: 20px;  
+        margin-top: 40px; 
+    }
+      .maxH600_mw300{
+         display: block; 
+        width:100%;         
+        max-width: 300px;
                
         top: 20px;  
         height:100%;                
@@ -244,7 +256,7 @@
         margin-bottom: 20px;  
         margin-top: 40px; 
     }
-    .maxH600.mw300{
+    .maxH600_mw300{
         display: none;
     }
     .last_ad_on_pages{
@@ -393,7 +405,7 @@
      .index_pc_only_ad{
         display: none;
     }
-    .maxH600.mw300{
+    .maxH600_mw300{
         display: none;
     }
 }
