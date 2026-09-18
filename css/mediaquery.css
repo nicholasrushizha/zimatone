@@ -22,6 +22,9 @@
     .ad-rail.right-ad{
         display: none;
     }
+     .maxH600{
+        display:none;
+    }
     .middle_page_adcontainer_2{
         display: none;
     }

@@ -52,6 +52,9 @@
     .ad-rail.right-ad{
         display: none;
     }
+     .maxH600{
+        display: none;
+    }
     .last_ad_on_pages{
         display: none;
     }
