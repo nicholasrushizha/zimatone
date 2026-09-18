@@ -86,7 +86,9 @@
     }
 
     .middle_page_adcontainer{
-        display: block;
+        display: flex;
+        justify-content: center;
+         align-items: center;
         height:100%;
         max-height: 300px;
         width:100%;
@@ -95,7 +97,9 @@
         margin-right:auto;
     }
     .middle_page_adcontainer_2{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height:100%;
         max-height: 70px;
         width:100%;
@@ -208,7 +212,9 @@
     }
 
     .middle_page_adcontainer{
-        display: block;
+        display: flex;
+        justify-content: center;
+         align-items: center;
         height:100%;
         max-height: 300px;
         width:100%;
@@ -217,7 +223,9 @@
         margin-right:auto;
     }
      .middle_page_adcontainer_2{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height:100%;
         max-height: 70px;
         width:100%;
@@ -241,6 +249,9 @@
 
 @media screen and (min-width: 400px) and (max-width: 644px) {
     .mobile_ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 400px;
     height:100%;
@@ -249,6 +260,9 @@
    
     }
     .mobile_ads_w100 {
+        display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 310px;
     height:100%;
@@ -287,6 +301,9 @@
 }
 @media screen and (max-width: 300px) { /*changed from 383 to 300*/
     .mobile_ads{
+        display: flex;
+    justify-content: center;
+    align-items: center;
         width:100%;
         max-width: 250px;
         height:100%;

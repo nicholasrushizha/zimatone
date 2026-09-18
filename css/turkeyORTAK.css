@@ -11,7 +11,7 @@
 /*MOBILE ADS SECTİONS*/
 
 .mobile_ads {
-   text-align: center;
+  display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -23,7 +23,7 @@
    
 }
 .mobile_ads_w100 {
-   text-align: center;
+   display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
