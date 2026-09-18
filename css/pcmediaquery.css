@@ -45,6 +45,7 @@
         margin-bottom: 20px;  
         margin-top: 40px; 
     }
+   
     .index_pc_only_ad{
          justify-content: center;
         align-items: center;
@@ -243,6 +244,9 @@
         margin-bottom: 20px;  
         margin-top: 40px; 
     }
+    .maxH600.mw300{
+        display: none;
+    }
     .last_ad_on_pages{
         display: none;
     }
@@ -387,6 +391,9 @@
         display: none;
     }
      .index_pc_only_ad{
+        display: none;
+    }
+    .maxH600.mw300{
         display: none;
     }
 }

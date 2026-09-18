@@ -171,6 +171,9 @@
         margin-bottom: 20px;  
         margin-top: 40px; 
     }
+    .maxH600.mw300{
+        display: none;
+    }
     
      .textonlyfully{
         font-size: 20px;
@@ -265,6 +268,9 @@
     .index_pc_only_ad{
         display: none;
     }
+    .maxH600.mw300{
+        display: none;
+    }
 }
 @media screen and (max-width: 300px) { /*changed from 383 to 300*/
     .mobile_ads{
@@ -302,6 +308,9 @@
         display: none;
     }
     .index_pc_only_ad{
+        display: none;
+    }
+    .maxH600.mw300{
         display: none;
     }
 }

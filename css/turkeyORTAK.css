@@ -55,6 +55,9 @@
      .maxH600{
         display: none;
     }
+    .maxH600.mw300{
+        display: none;
+    }
     .last_ad_on_pages{
         display: none;
     }
